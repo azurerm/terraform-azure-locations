@@ -21,8 +21,10 @@ locals {
     }
   }
 
-  location = coalesce(
-    lookup(local.locations_name, var.location, null),
-    lookup(local.locations_display_name, var.location, "none")
-  )
+  lookup_name         = lookup(local.locations_name, var.location, null)
+  lookup_display_name = lookup(local.locations_display_name, var.location, null)
+  location = try(coalesce(
+    local.lookup_name,
+    local.lookup_display_name
+  ), "none")
 }
