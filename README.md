@@ -46,11 +46,11 @@ No resources.
 | Name | Description |
 |------|-------------|
 | location | Map of information for the location. Return 'none' if location is not found. |
-| location_name | Standard name of the location. Return 'none' if location is not found. |
-| location_display_name | Display name of the location. Return 'none' if location is not found. |
-| location_short_name | Short name of the location. Return 'none' if location is not found and null if there is no short name for this location. |
-| location_regional_display_name | Regional display name of the location. Return 'none' if location is not found. |
-| location_paired_region_name | Paired region name of the location. Return 'none' if location is not found and null if there is no paired region name for this location.  |
+| name | Standard name of the location. Return 'none' if location is not found. |
+| display_name | Display name of the location. Return 'none' if location is not found. |
+| short_name | Short name of the location. Return 'none' if location is not found and null if there is no short name for this location. |
+| regional_display_name | Regional display name of the location. Return 'none' if location is not found. |
+| paired_region_name | Paired region name of the location. Return 'none' if location is not found and null if there is no paired region name for this location.  |
 
 
 ## Related documentation
