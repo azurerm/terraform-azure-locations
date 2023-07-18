@@ -1,5 +1,5 @@
 module "azure_location" {
-  source  = "../"
+  source   = "../"
   location = "West Europe"
 }
 
@@ -15,7 +15,7 @@ output "location" {
 # }
 
 module "azure_fake_location" {
-  source  = "../"
+  source   = "../"
   location = "Test Europe"
 }
 
