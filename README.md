@@ -14,7 +14,7 @@ Short name is based on this list : [Geo-code mapping
 
 ## Usage
 
-```hcl
+```
 module "azure_location" {
   source  = "azurerm/locations/azurerm"
   version = "x.x.x"
