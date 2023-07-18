@@ -1,4 +1,29 @@
-output "result" {
-  description = "The geo-code for the location. Return 'xxx' if not found."
-  value = local.geo_code
+output "location" {
+  description = "Map of information for the location. Return 'none' if location is not found."
+  value       = local.location
+}
+
+output "location_name" {
+  description = "Standard name of the location. Return 'none' if location is not found."
+  value       = try(local.location.name, "none")
+}
+
+output "location_display_name" {
+  description = "Display name of the location. Return 'none' if location is not found."
+  value       = try(local.location.display_name, "none")
+}
+
+output "location_short_name" {
+  description = "Short name of the location. Return 'none' if location is not found and null if there is no short name for this location."
+  value       = try(local.location.short_name, "none")
+}
+
+output "location_regional_display_name" {
+  description = "Regional display name of the location. Return 'none' if location is not found."
+  value       = try(local.location.regional_display_name, "none")
+}
+
+output "location_paired_region_name" {
+  description = "Paired region name of the location. Return 'none' if location is not found and null if there is no paired region name for this location."
+  value       = try(local.location.paired_region_name, "none")
 }
