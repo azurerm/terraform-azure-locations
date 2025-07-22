@@ -176,6 +176,13 @@
       "pairedRegionName": "southcentralus"
     },
     {
+      "name": "chilecentral",
+      "displayName": "Chile Central",
+      "shortName": "clc",
+      "regionalDisplayName": "(South America) Chile Central"
+      "pairedRegionName": null,
+    },
+    {
       "name": "centraluseuap",
       "displayName": "Central US EUAP",
       "shortName": "ccy",
