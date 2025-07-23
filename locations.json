@@ -179,8 +179,8 @@
       "name": "chilecentral",
       "displayName": "Chile Central",
       "shortName": "clc",
-      "regionalDisplayName": "(South America) Chile Central"
-      "pairedRegionName": null,
+      "regionalDisplayName": "(South America) Chile Central",
+      "pairedRegionName": null
     },
     {
       "name": "centraluseuap",
