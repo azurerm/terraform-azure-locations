@@ -150,7 +150,7 @@
     {
       "name": "polandcentral",
       "displayName": "Poland Central",
-      "shortName": null,
+      "shortName": "plc",
       "regionalDisplayName": "(Europe) Poland Central",
       "pairedRegionName": null
     },
@@ -192,7 +192,7 @@
     {
       "name": "qatarcentral",
       "displayName": "Qatar Central",
-      "shortName": null,
+      "shortName": "qac",
       "regionalDisplayName": "(Middle East) Qatar Central",
       "pairedRegionName": null
     },
