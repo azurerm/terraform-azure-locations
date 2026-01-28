@@ -26,14 +26,14 @@
       "displayName": "Australia Central",
       "shortName": "acl",
       "regionalDisplayName": "(Asia Pacific) Australia Central",
-      "pairedRegionName": "australiacentral"
+      "pairedRegionName": "australiacentral2"
     },
     {
       "name": "australiacentral2",
       "displayName": "Australia Central 2",
       "shortName": "acl2",
       "regionalDisplayName": "(Asia Pacific) Australia Central 2",
-      "pairedRegionName": "australiacentral2"
+      "pairedRegionName": "australiacentral"
     },
     {
       "name": "australiaeast",
@@ -52,7 +52,7 @@
     {
       "name": "austriaeast",
       "displayName": "Austria East",
-      "shortName": "ae",
+      "shortName": null,
       "regionalDisplayName": "(Europe) Austria East",
       "pairedRegionName": null
     },
@@ -83,13 +83,6 @@
       "shortName": "bse",
       "regionalDisplayName": "(South America) Brazil Southeast",
       "pairedRegionName": "brazilsouth"
-    },
-    {
-      "name": "brazilus",
-      "displayName": "Brazil US",
-      "shortName": null,
-      "regionalDisplayName": "(South America) Brazil US",
-      "pairedRegionName": "brazilsoutheast"
     },
     {
       "name": "canada",
@@ -267,6 +260,13 @@
       "pairedRegionName": null
     },
     {
+      "name": "indonesia",
+      "displayName": "Indonesia",
+      "shortName": null,
+      "regionalDisplayName": "Indonesia",
+      "pairedRegionName": null
+    },
+    {
       "name": "indonesiacentral",
       "displayName": "Indonesia Central",
       "shortName": "idc",
@@ -274,10 +274,24 @@
       "pairedRegionName": null
     },
     {
+      "name": "israel",
+      "displayName": "Israel",
+      "shortName": null,
+      "regionalDisplayName": "Israel",
+      "pairedRegionName": null
+    },
+    {
       "name": "israelcentral",
       "displayName": "Israel Central",
       "shortName": "ilc",
       "regionalDisplayName": "(Middle East) Israel Central",
+      "pairedRegionName": null
+    },
+    {
+      "name": "italy",
+      "displayName": "Italy",
+      "shortName": null,
+      "regionalDisplayName": "Italy",
       "pairedRegionName": null
     },
     {
@@ -318,7 +332,7 @@
     {
       "name": "jioindiawest",
       "displayName": "Jio India West",
-      "shortName": "jic",
+      "shortName": "jiw",
       "regionalDisplayName": "(Asia Pacific) Jio India West",
       "pairedRegionName": "jioindiacentral"
     },
@@ -344,6 +358,13 @@
       "pairedRegionName": "koreacentral"
     },
     {
+      "name": "malaysia",
+      "displayName": "Malaysia",
+      "shortName": null,
+      "regionalDisplayName": "Malaysia",
+      "pairedRegionName": null
+    },
+    {
       "name": "malaysiawest",
       "displayName": "Malaysia West",
       "shortName": "myw",
@@ -351,10 +372,24 @@
       "pairedRegionName": null
     },
     {
+      "name": "mexico",
+      "displayName": "Mexico",
+      "shortName": null,
+      "regionalDisplayName": "Mexico",
+      "pairedRegionName": null
+    },
+    {
       "name": "mexicocentral",
       "displayName": "Mexico Central",
       "shortName": "mxc",
       "regionalDisplayName": "(Mexico) Mexico Central",
+      "pairedRegionName": null
+    },
+    {
+      "name": "newzealand",
+      "displayName": "New Zealand",
+      "shortName": null,
+      "regionalDisplayName": "New Zealand",
       "pairedRegionName": null
     },
     {
@@ -407,10 +442,24 @@
       "pairedRegionName": "norwayeast"
     },
     {
+      "name": "poland",
+      "displayName": "Poland",
+      "shortName": null,
+      "regionalDisplayName": "Poland",
+      "pairedRegionName": null
+    },
+    {
       "name": "polandcentral",
       "displayName": "Poland Central",
       "shortName": "plc",
       "regionalDisplayName": "(Europe) Poland Central",
+      "pairedRegionName": null
+    },
+    {
+      "name": "qatar",
+      "displayName": "Qatar",
+      "shortName": null,
+      "regionalDisplayName": "Qatar",
       "pairedRegionName": null
     },
     {
@@ -491,10 +540,24 @@
       "pairedRegionName": null
     },
     {
+      "name": "spain",
+      "displayName": "Spain",
+      "shortName": null,
+      "regionalDisplayName": "Spain",
+      "pairedRegionName": null
+    },
+    {
       "name": "spaincentral",
       "displayName": "Spain Central",
       "shortName": "spc",
       "regionalDisplayName": "(Europe) Spain Central",
+      "pairedRegionName": null
+    },
+    {
+      "name": "sweden",
+      "displayName": "Sweden",
+      "shortName": null,
+      "regionalDisplayName": "Sweden",
       "pairedRegionName": null
     },
     {
@@ -526,6 +589,13 @@
       "pairedRegionName": "switzerlandnorth"
     },
     {
+      "name": "taiwan",
+      "displayName": "Taiwan",
+      "shortName": null,
+      "regionalDisplayName": "Taiwan",
+      "pairedRegionName": null
+    },
+    {
       "name": "uaecentral",
       "displayName": "UAE Central",
       "shortName": "uac",
@@ -543,14 +613,14 @@
       "name": "uksouth",
       "displayName": "UK South",
       "shortName": "uks",
-      "regionalDisplayName": "(Europe) UK South",
+      "regionalDisplayName": "(UK) UK South",
       "pairedRegionName": "ukwest"
     },
     {
       "name": "ukwest",
       "displayName": "UK West",
       "shortName": "ukw",
-      "regionalDisplayName": "(Europe) UK West",
+      "regionalDisplayName": "(UK) UK West",
       "pairedRegionName": "uksouth"
     },
     {
