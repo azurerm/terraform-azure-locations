@@ -2,7 +2,7 @@
 
 This Terraform module is designed to provide information on Azure locations.
 
-It provides for an Azure location name or display name : name, display name, regional display name, short name and paired region name.
+It provides for an Azure location name, short name or display name : name, display name, regional display name, short name and paired region name.
 
 Please refer to the [locations.json](locations.json) file for available locations. The list was build based on this command line :   
 ```
@@ -39,7 +39,7 @@ No resources.
 
 | Name | Description | Type | Default | Required |
 |------|-------------|------|---------|:--------:|
-| location | The location/region name or displayName to get information. | `string` | n/a | yes |
+| location | The location/region name, shortName or displayName to get information. | `string` | n/a | yes |
 
 ## Outputs
 
@@ -55,7 +55,7 @@ No resources.
 
 ## Related documentation
 
-[Azure regions](https://azure.microsoft.com/en-us/global-infrastructure/regions/)  
-[Azure Geo-code mapping](https://learn.microsoft.com/en-us/azure/backup/scripts/geo-code-list)  
-[Terrafomr modules](https://developer.hashicorp.com/terraform/registry/modules/publish)  
-[Terraform Best Practices](https://www.terraform-best-practices.com/)  
+[Azure regions](https://azure.microsoft.com/en-us/global-infrastructure/regions/)
+[Azure Geo-code mapping](https://learn.microsoft.com/en-us/azure/backup/scripts/geo-code-list)
+[Terrafomr modules](https://developer.hashicorp.com/terraform/registry/modules/publish)
+[Terraform Best Practices](https://www.terraform-best-practices.com/)
