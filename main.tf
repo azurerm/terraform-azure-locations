@@ -21,10 +21,22 @@ locals {
     }
   }
 
+  locations_short_name = {
+    for location in local.locations_data.locations : location.shortName => {
+      name                  = location.name
+      display_name          = location.displayName
+      short_name            = location.shortName
+      regional_display_name = location.regionalDisplayName
+      paired_region_name    = location.pairedRegionName
+    } if location.shortName != null
+  }
+
   lookup_name         = lookup(local.locations_name, var.location, null)
   lookup_display_name = lookup(local.locations_display_name, var.location, null)
+  lookup_short_name   = lookup(local.locations_short_name, var.location, null)
   location = try(coalesce(
     local.lookup_name,
-    local.lookup_display_name
+    local.lookup_display_name,
+    local.lookup_short_name
   ), "none")
 }
