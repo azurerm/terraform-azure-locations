@@ -52,7 +52,7 @@
     {
       "name": "austriaeast",
       "displayName": "Austria East",
-      "shortName": null,
+      "shortName": "ate",
       "regionalDisplayName": "(Europe) Austria East",
       "pairedRegionName": null
     },
