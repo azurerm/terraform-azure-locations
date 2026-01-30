@@ -57,5 +57,5 @@ No resources.
 
 [Azure regions](https://azure.microsoft.com/en-us/global-infrastructure/regions/)
 [Azure Geo-code mapping](https://learn.microsoft.com/en-us/azure/backup/scripts/geo-code-list)
-[Terrafomr modules](https://developer.hashicorp.com/terraform/registry/modules/publish)
+[Terraform modules](https://developer.hashicorp.com/terraform/registry/modules/publish)
 [Terraform Best Practices](https://www.terraform-best-practices.com/)
